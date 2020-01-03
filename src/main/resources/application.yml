@@ -1,5 +1,5 @@
 server:
-   port: 8045
+   port: 8041
 user:
    name: Kishor
    password: 27892789
@@ -12,3 +12,14 @@ notification:
    text:
       from: 274982347982
       message: Hello World! Text from the top of the world
+spring:
+   datasource:
+      url: jdbc:mysql://localhost:3306/client_int
+      username: root
+      password: 123456789
+   jpa:
+      properties:
+         hibernate:
+            show_sql: false
+            format_sql: false
+      database-platform: org.hibernate.dialect.MySQLDialect

@@ -1,0 +1,14 @@
+server:
+   port: 8032
+user:
+   name: Kishor
+   password: 27892789
+   xyz:
+      abc: merge
+notification:
+   email:
+      from: kishor@gmail.com
+      message: Hello World! Email from the top of the world for local
+   text:
+      from: 274982347982
+      message: Hello World! Text from the top of the world for local
